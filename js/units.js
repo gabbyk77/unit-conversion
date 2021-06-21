@@ -1,15 +1,15 @@
-function findAddSum() {
+function findKm() {
   var num1 = document.getElementById("num1").value;
 
   var num2 = document.getElementById("num2").value;
 
-  var sum = num1 * 1.609344;
+  var km = num1 * 1.609344;
 
   var sum = Number(num1);
   Number(num2);
-  document.getElementById("sum").innerHTML = sum;
+  document.getElementById("sum").innerHTML = km;
 
-  document.getElementById("sum").innerHTML = " " + sum;
+  document.getElementById("sum").innerHTML = " " + km;
 }
 
 function findProd() {
