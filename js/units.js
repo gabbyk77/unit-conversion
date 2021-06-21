@@ -3,7 +3,7 @@ function findAddSum() {
 
   var num2 = document.getElementById("num2").value;
 
-  var sum = num1 + num2;
+  var sum = num1 * 1.609344;
 
   var sum = Number(num1);
   Number(num2);
